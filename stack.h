@@ -15,7 +15,7 @@ public:
 	~Stack();
 
 	Stack& operator=(const Stack& right);
-	
+
 	void push(int elem);
 	int pop();
 	bool isEmpty();
